@@ -3,30 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* common css start */
-main{
+main,
+footer {
     width: 1140px;
     margin: 0 auto;
 }
-.tittle{
+
+.tittle {
     color: rgb(13, 19, 33);
 
-font-size: 32px;
-font-weight: 800;
-line-height: 37px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
 
-text-align: center;
+    text-align: center;
 }
-.description{
+
+.description {
     color: rgb(13, 19, 33);
 
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
 }
- .btn {
+
+.btn {
 
     font-weight: 600px;
     font-size: 20px;
@@ -37,23 +42,27 @@ text-align: center;
     border-radius: 8px;
     opacity: 0.8;
 }
+
 /* current-skill background color */
-.one{
+.one {
 
     border-radius: 16px;
 
     background: rgba(255, 76, 30, 0.05);
 }
-.two{
+
+.two {
     border-radius: 16px;
 
-background: rgba(0, 76, 232, 0.05);
+    background: rgba(0, 76, 232, 0.05);
 }
-.three{
+
+.three {
     border-radius: 16px;
 
-background: rgba(255, 223, 0, 0.05);
+    background: rgba(255, 223, 0, 0.05);
 }
+
 /* //common cssend */
 
 body {
@@ -70,6 +79,7 @@ body {
     align-items: center;
     padding: 38px 83px;
 }
+
 .menu-bar .tittle-name {
     color: rgb(13, 19, 33);
 
@@ -79,28 +89,31 @@ body {
     line-height: 33px;
     letter-spacing: 0%;
 }
+
 /* //header section end */
 
 /* banner section start */
-.banner{
+.banner {
     height: 652px;
     background: url(../assets/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.banner .banner-content{
+
+.banner .banner-content {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
-   
+
+
 }
-.banner-content h1{
+
+.banner-content h1 {
     color: rgb(13, 19, 33);
-    
+
     font-size: 38px;
     font-weight: 800;
     line-height: 68px;
@@ -108,68 +121,78 @@ body {
     text-align: center;
     margin-top: 15px;
 }
-.banner-content p{
+
+.banner-content p {
     color: rgb(13, 19, 33);
 
-font-size: 16px;
-font-weight: 400;
-line-height: 20px;
-width: 852px;
-text-align: center;
-margin-top: 15px;
-}
-.banner-content .btn{
-    background-color:rgb(13, 19, 33);
-    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 852px;
+    text-align: center;
     margin-top: 15px;
 }
+
+.banner-content .btn {
+    background-color: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
 /* //banner section end */
 
 /* learning process start */
-.learning-process{
+.learning-process {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     margin-top: 70px;
 }
-.learning-process .tittle{
+
+.learning-process .tittle {
     padding-top: 80px;
 }
-.learning-process .description{
-    padding:40px 0 ;
+
+.learning-process .description {
+    padding: 40px 0;
 }
-.leran-item{
+
+.leran-item {
     display: flex;
     justify-content: space-between;
-   padding:20px 50px;
+    padding: 20px 50px;
 }
-.learn_content{
-  
+
+.learn_content {
+
     padding: 45px;
     border-radius: 16px;
 
-background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 
 }
-.learn_content h3{
+
+.learn_content h3 {
     color: rgba(13, 19, 33, 0.7);
 
-font-size: 24px;
-font-weight: 700;
-line-height: 36px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
 
 }
-.learn_content p{
+
+.learn_content p {
     color: rgb(13, 19, 33);
 
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
 
 
 }
-.learn_content .btn{
-    border-radius:0 ;
+
+.learn_content .btn {
+    border-radius: 0;
     margin-top: 10px;
 }
 
@@ -179,72 +202,172 @@ margin-top: 10px;
 /* //learning process end */
 
 /* my inspiration start */
-.Inspiration .tittle{
-    padding-top: 80px;
+.Inspiration .tittle {
+    padding-top: 60px;
 }
-.Inspiration .description{
-    padding:40px 0 ;
+
+.Inspiration .description {
+    padding: 30px 0;
 }
-.Inspiration-video{
-    
+
+.Inspiration-video {
+
     text-align: center;
     box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
-padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
 
 }
+
 /* //my inspiration end */
 
 /* currentskill start */
-.current-skill .tittle{
+.current-skill .tittle {
     padding-top: 80px;
+    margin-bottom: 15px;
 }
-.current-skill.description{
-    padding:40px 0 ;
-}
-.skill-items{
-    display: flex;
-    justify-content: space-around;
-    padding:25px 50px;
+
+.current-skill.description {
+
+    padding: 40px 0;
 
 }
-.skill-items .skill-item{
- margin-right: 24px;
- padding: 15px;
+
+.skill-items {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 50px;
+
 }
-.skill-item img{
+
+.skill-items .skill-item {
+    margin-right: 24px;
+    padding: 15px;
+}
+
+.skill-item img {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.skill-item h4{
+
+.skill-item h4 {
     color: rgb(13, 19, 33);
-    
+
     font-size: 24px;
     font-weight: 800;
-    line-height: 36px;  
+    line-height: 36px;
     margin-top: 10px;
 }
 
-.skill-item p{
+.skill-item p {
     color: rgb(13, 19, 33);
 
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
 
 }
-.skill-item a{
+
+.skill-item a {
     color: rgb(13, 19, 33);
-   
+
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
-   
+
     text-decoration-line: underline;
     margin-top: 10px;
 }
 
 
 /* //currentskill end */
+
+/* Contact section start */
+.Contact {
+
+    background: url(../assets/handshake.jpg);
+    height: 313px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+    margin-top: 20px;
+}
+
+.Contact-content {
+    text-align: center;
+    color: #fff;
+}
+
+.Contact-content h2 {
+    color: rgb(255, 255, 255);
+
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 20px;
+
+}
+.Contact-content p{
+    color: rgb(255, 255, 255);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 15px;
+
+}
+
+
+.input {
+    width: 548px;
+    height: 57px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+
+}
+
+.Contact-feild form .btn {
+
+    padding: 17px;
+
+
+
+}
+
+/* support section end */
+
+/* footer section start */
+.footer {
+    
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 60px;
+    padding: 30px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    color: rgb(13, 19, 33);
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+
+}
+
+.footer-item a {
+    text-decoration: none;
+}
+
+/* //footer section end */
